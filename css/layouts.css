@@ -1,8 +1,6 @@
 body {
-  /* display: inline-block; */
   height: auto;
   margin: auto;
-  /* margin-right: auto; */
   max-width: 768px;
   min-width: 480px;
   text-align: center;
@@ -14,25 +12,29 @@ nav, section {
 }
 header nav {
   height: 75px;
+  line-height: 75px;
 }
 
 aside nav {
   height: 150px;
+  line-height: 150px;
 }
 
 section:first-of-type, section:nth-child(2) {
   float: left;
   height: 125px;
+  line-height: 125px;
 }
 
 section:nth-child(3), section:nth-child(4), section:nth-child(5), section:nth-child(6) {
   height: 250px;
   float: left;
+  line-height: 250px;
   width: 50%;
 }
 
 footer nav {
-  /* display: block; */
   float: right;
   height: 80px;
+  line-height: 80px;
 }
