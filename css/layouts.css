@@ -1,8 +1,11 @@
 body {
-  margin-left: auto;
-  margin-right: auto;
+  /* display: inline-block; */
+  height: auto;
+  margin: auto;
+  /* margin-right: auto; */
   max-width: 768px;
   min-width: 480px;
+  text-align: center;
 }
 
 nav, section {
@@ -18,5 +21,18 @@ aside nav {
 }
 
 section:first-of-type, section:nth-child(2) {
+  float: left;
   height: 125px;
+}
+
+section:nth-child(3), section:nth-child(4), section:nth-child(5), section:nth-child(6) {
+  height: 250px;
+  float: left;
+  width: 50%;
+}
+
+footer nav {
+  /* display: block; */
+  float: right;
+  height: 80px;
 }
