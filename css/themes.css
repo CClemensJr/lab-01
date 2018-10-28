@@ -1,0 +1,82 @@
+@media all and (min-width: 769px) {
+  header nav {
+    background: linear-gradient(0.25turn, #1F2041, #4B3F72, #417B5A, #D0CEBA, #E9D2C0);
+    color: silver;
+  }
+
+  aside nav {
+    background: #D0CEBA;
+  }
+
+  section:first-of-type {
+    background: #417B5A;
+  }
+
+  section:nth-child(2) {
+    background: #1F2041;
+    color: silver;
+  }
+
+  section:nth-child(3) {
+    background: #E9D2C0;
+  }
+
+  section:nth-child(4) {
+    background: #4B3F72;
+  }
+
+  section:nth-child(5) {
+    background: #D0CEBA;
+  }
+
+  section:nth-child(6) {
+    background: #417B5A;
+  }
+
+  footer nav {
+    background: #1F2041;
+    color: silver;
+  }
+}
+
+
+@media all and (max-width: 768px) {
+  header nav {
+    background:#3A3335;
+    color: silver;
+  }
+
+  aside nav {
+    background: #EB5E55;
+  }
+
+  section:first-of-type {
+    background: #C6D8D3;
+  }
+
+  section:nth-child(2) {
+    background: #D81E5B;
+    color: silver;
+  }
+
+  section:nth-child(3) {
+    background: linear-gradient(0.1turn, #EB5E55, #3A3335, #D81E5B, #FDF0D5, #C6D8D3);
+  }
+
+  section:nth-child(4) {
+    background: linear-gradient(.9turn, #EB5E55, #3A3335, #D81E5B, #FDF0D5, #C6D8D3);
+  }
+
+  section:nth-child(5) {
+    background: linear-gradient(0.4turn, #EB5E55, #3A3335, #D81E5B, #FDF0D5, #C6D8D3);
+  }
+
+  section:nth-child(6) {
+    background: linear-gradient(0.6turn, #EB5E55, #3A3335, #D81E5B, #FDF0D5, #C6D8D3);
+  }
+
+  footer nav {
+    background: #3A3335;
+    color: silver;
+  }
+}
