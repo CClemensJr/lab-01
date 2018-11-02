@@ -1,4 +1,10 @@
-@media all and (min-width: 769px) {
+
+@media all and (min-width: 992px) {
+
+}
+
+
+@media all and (min-width: 768px) and (max-width: 991px) {
   header nav {
     background: linear-gradient(0.25turn, #1F2041, #4B3F72, #417B5A, #D0CEBA, #E9D2C0);
     color: silver;
@@ -40,7 +46,7 @@
 }
 
 
-@media all and (max-width: 768px) {
+@media all and (max-width: 767px) {
   header nav {
     background:#3A3335;
     color: silver;
