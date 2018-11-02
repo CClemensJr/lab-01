@@ -3,7 +3,14 @@
 **DESKTOP 
 */
 @media all and (min-width: 992px) {
-  
+  body {
+    height: auto;
+    margin: auto;
+    max-width: 100%;
+    min-width: 992px;
+    text-align: center;
+  }
+
 }
 
 
@@ -14,7 +21,7 @@
   body {
     height: auto;
     margin: auto;
-    max-width: 2048px;
+    max-width: 991px;
     min-width: 769px;
     text-align: center;
   }
@@ -67,7 +74,7 @@
   body {
     height: auto;
     margin: auto;
-    max-width: 768px;
+    max-width: 767px;
     min-width: 480px;
     text-align: center;
   }
