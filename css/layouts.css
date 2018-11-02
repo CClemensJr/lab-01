@@ -1,8 +1,20 @@
-@media all and (min-width: 769px) {
+
+/* 
+**DESKTOP 
+*/
+@media all and (min-width: 992px) {
+  
+}
+
+
+/* 
+**TABLET 
+*/
+@media all and (min-width: 768px) and (max-width: 991px) {
   body {
     height: auto;
     margin: auto;
-    max-width: 960px;
+    max-width: 2048px;
     min-width: 769px;
     text-align: center;
   }
@@ -46,7 +58,12 @@
   }
 }
 
-@media all and (max-width: 768px) {
+
+
+/* 
+** MOBILE 
+*/
+@media all and (max-width: 767px) {
   body {
     height: auto;
     margin: auto;
